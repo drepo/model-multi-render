@@ -1,0 +1,36 @@
+[
+  {
+    "model": "demo.content",
+    "pk": 1,
+    "fields": {
+      "name": "Python"
+    }
+  },
+  {
+    "model": "demo.content",
+    "pk": 2,
+    "fields": {
+      "name": "C++"
+    }
+  },
+  {
+    "model": "demo.content",
+    "pk": 3,
+    "fields": {
+      "name": "ANSI C"
+    }
+  },
+  {
+    "model": "demo.report",
+    "pk": 1,
+    "fields": {
+      "name": "Programming Languages",
+      "contents": [
+        1,
+        2,
+        3
+      ]
+    }
+  }
+]
+
